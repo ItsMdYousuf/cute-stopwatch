@@ -22,7 +22,7 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main className="h-[100vh] bg-[#2C1338] py-10">
+    <main className="h-[100vh] py-10">
       <div className="flex w-full justify-center">
         {/* Title */}
         {isEditing ? (

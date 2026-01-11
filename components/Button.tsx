@@ -1,7 +1,8 @@
 import React from "react";
 
 interface ButtonProps {
-  btnName: string;
+  // Changed from string to React.ReactNode to allow icons
+  btnName: React.ReactNode;
   className?: string;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
